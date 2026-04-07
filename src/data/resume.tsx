@@ -1,4 +1,5 @@
 import { Icons } from "@/components/icons";
+import React from "react";
 import { CopyPlus, HomeIcon, NotebookIcon } from "lucide-react";
 import { Docker } from "@/components/ui/svgs/docker";
 import { Java } from "@/components/ui/svgs/java";
@@ -131,7 +132,7 @@ avatarUrl: "/me.png",
       image:
         "/prayatana3.0.webp",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-    links: [] as { type: string; href: string; icon: React.ReactNode }[],
+    links: [] as Array<{ title: string; href: string; icon: React.ReactNode }>,
     },
     {
       title: "Hackathon On Application Of Cyber Intelligence For Nation Security",
@@ -142,7 +143,7 @@ avatarUrl: "/me.png",
       image:
         "/iitbhilailogo.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-       links: [] as { type: string; href: string; icon: React.ReactNode }[],
+    links: [] as Array<{ title: string; href: string; icon: React.ReactNode }>,
     },
   ],
 } as const;

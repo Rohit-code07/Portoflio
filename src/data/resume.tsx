@@ -146,4 +146,4 @@ avatarUrl: "/me.png",
     links: [] as Array<{ title: string; href: string; icon: React.ReactNode }>,
     },
   ],
-} as const;
+};

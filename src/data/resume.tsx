@@ -116,9 +116,9 @@ avatarUrl: "/me.png",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/MedoraX.png",
+      image: "",
       video:
-        "",
+        "/MedoraX.mp4",
     },
     
   ],

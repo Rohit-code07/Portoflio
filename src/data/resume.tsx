@@ -94,7 +94,7 @@ avatarUrl: "/me.png",
   projects: [
     {
       title: "MedoraX",
-      href: "https://chatcollect.com",
+      href: "https://medora-x-five.vercel.app",
       dates: "March 2026 - April 2026",
       active: true,
       description:
@@ -112,7 +112,7 @@ avatarUrl: "/me.png",
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://medora-x-five.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
       ],

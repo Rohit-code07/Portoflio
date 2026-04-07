@@ -131,7 +131,7 @@ avatarUrl: "/me.png",
       image:
         "/prayatana3.0.webp",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
+    links: [] as { type: string; href: string; icon: React.ReactNode }[],
     },
     {
       title: "Hackathon On Application Of Cyber Intelligence For Nation Security",
@@ -142,7 +142,7 @@ avatarUrl: "/me.png",
       image:
         "/iitbhilailogo.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-       links: [],
+       links: [] as { type: string; href: string; icon: React.ReactNode }[],
     },
   ],
 } as const;
